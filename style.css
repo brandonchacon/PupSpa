@@ -8,6 +8,7 @@ body {
  display: grid;
  grid-template-rows: 30% 5% 30% 10% 20% 5%;
  grid-template-columns: 1/3fr 5/100fr 1/3fr 1/10fr 2/10fr 5/100fr;
+ grid-column-gap: 20px;
 }
 
 header {
@@ -65,15 +66,15 @@ img {
 }
 
 .address {
-
+ grid-column: span 1/2;
 }
 
 .hours {
-
+ grid-column: span 3/4;
 }
 
 .call-us {
-
+ grid-column: span 5/6;
 }
 
 .marker {
@@ -104,11 +105,11 @@ img {
 }
 
 .one {
-
+ grid-column: 3/5;
 }
 
 .two {
-
+ grid-column: 3/5;
 }
 
 footer {
